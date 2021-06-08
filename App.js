@@ -6,7 +6,10 @@ import BookItems from './components/BookItems';
 export default function App() {
   return (
     <View style={styles.container}>
-     <BookItems></BookItems>
+     <BookItems 
+     name={"Programming with C"}
+     author={"XXXYZ"}  
+     image={require('./assets/images/Book_Cover_Mockup.jpg')}></BookItems>
       
       <StatusBar style="auto" />
     </View>
